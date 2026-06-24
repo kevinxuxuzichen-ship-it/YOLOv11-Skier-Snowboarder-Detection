@@ -1,4 +1,3 @@
-```markdown
 # YOLOv11 Skier & Snowboarder Detection
 
 This project utilizes Ultralytics YOLOv11 to detect **Skiers** and **Snowboarders** in alpine environments. The model is optimized for high accuracy and can be used for ski resort surveillance, athlete performance analysis, and automated highlight generation.
@@ -25,7 +24,6 @@ Key evaluation plots (e.g., `results.png`, `BoxF1_curve.png`) are included in th
 ### 1. Requirements
 ```bash
 pip install ultralytics
-```
 
 ### 2. Python Inference
 ```python
