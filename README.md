@@ -24,6 +24,7 @@ Key evaluation plots (e.g., `results.png`, `BoxF1_curve.png`) are included in th
 ### 1. Requirements
 ```bash
 pip install ultralytics
+```
 
 ### 2. Python Inference
 ```python
@@ -40,13 +41,13 @@ results[0].show()
 ```
 
 ## 🌟 Key Advantages
-Precise Classification: By distinguishing between skiers and snowboarders, the model enables specialized trajectory analysis and predictive blind-spot estimation based on equipment-specific movement patterns.
-Optimized for Proximity: Specifically tuned for mid-to-close range detection, significantly reducing false alarms and providing actionable collision warnings for safety systems.
+- **Precise Classification**: By distinguishing between skiers and snowboarders, the model enables specialized trajectory analysis and predictive blind-spot estimation based on equipment-specific movement patterns.
+- **Optimized for Proximity**: Specifically tuned for mid-to-close range detection, significantly reducing false alarms and providing actionable collision warnings for safety systems.
 
 
 ## ⚠️ Limitations & Future Work
-Epoch Selection: Training was intentionally capped at 100 epochs to prevent overfitting. While this ensures better generalization to new ski resorts, the absolute peak accuracy might be slightly lower than a fully converged model.
-Data Scale: The current performance is based on a focused dataset. Performance may vary in extreme environmental conditions (e.g., heavy snow or low-light night skiing).
+- **Epoch Selection**: Training was intentionally capped at 100 epochs to prevent overfitting. While this ensures better generalization to new ski resorts, the absolute peak accuracy might be slightly lower than a fully converged model.
+- **Data Scale**: The current performance is based on a focused dataset. Performance may vary in extreme environmental conditions (e.g., heavy snow or low-light night skiing).
 
 
 ## 🛠 Deployment Advice
