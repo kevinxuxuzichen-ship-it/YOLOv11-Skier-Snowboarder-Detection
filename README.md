@@ -17,7 +17,7 @@ Key evaluation plots (e.g., `results.png`, `BoxF1_curve.png`) are included in th
 - `weights/best.pt`: PyTorch weights (recommended for Python development).
 - `weights/best.onnx`: ONNX format model (ideal for web, mobile, or edge deployment).
 - `data.yaml`: Dataset configuration defining category mappings.
-- `Skier_Model_Results.zip`: Complete training logs, including confusion matrices and loss curves.
+- `results/`: Complete training logs, including confusion matrices and loss curves.
 
 ## 💻 How to Use
 
