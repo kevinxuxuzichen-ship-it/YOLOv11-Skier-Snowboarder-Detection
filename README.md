@@ -50,6 +50,17 @@ results[0].show()
 - **Data Scale**: The current performance is based on a focused dataset. Performance may vary in extreme environmental conditions (e.g., heavy snow or low-light night skiing).
 
 
+## 📂 Dataset Access
+
+This project uses the following dataset hosted on Roboflow:
+- **Download Link**: [https://universe.roboflow.com/ski-snowboard/ski-snowboard-1/dataset/1](https://universe.roboflow.com/ski-snowboard/ski-snowboard-1/dataset/1)
+
+**Instructions**:
+1. Visit the link above and select "Export" -> "YOLOv11" format.
+2. Extract the downloaded archive into a folder named `datasets/` in the project root.
+3. Ensure the folder structure follows `datasets/train/images`, etc.
+
+
 ## 🛠 Deployment Advice
 - **Confidence Threshold**: A threshold between `0.4 - 0.6` is recommended to balance precision and recall, based on the `BoxF1_curve.png`.
 - **ONNX Deployment**: For non-Python environments (C++, JavaScript, etc.), please use the exported `best.onnx` file.
